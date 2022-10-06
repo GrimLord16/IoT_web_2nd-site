@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;        
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+li {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+}
+
+.btn-blue {
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    border: block;
+}
+
+.btn-red {
+    color: rgb(255, 57, 57);
+    background-color: white;
+    border-color: rgb(255, 57, 57);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.hidden {
+    display: none !important;
+}
