@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 0 5rem;
+    border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header__title {
+    font-size: 2rem;
+    color: rgb(109, 109, 109);
+}
+
+.header__nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item {
+    padding: 1rem 1.25rem;
+}
+
+.header__nav-item.selected {
+    background-color: darkgray;
+}
+
+.header__search {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__search-input {
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+}
+.header__right {
+    display: flex;
+    gap: 1rem;
+}
