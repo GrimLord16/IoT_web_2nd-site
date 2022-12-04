@@ -1,0 +1,25 @@
+<main class="create__main">
+    <form action="/doggos/create" method="POST" class="create__form">
+        <div class="create__main-title">Create doge</div>
+        <div class="create__inputs">
+            <div class="create__title">
+                <div class="create__input-text">Title</div>
+                <div class="create__input-title-error">{{{error}}}</div>
+                <input type="text" class="create__input-title" name="title" value="{{{title}}}" placeholder="Text..." id="title_input">
+            </div>
+            <div class="create__description">
+                <div class="create__input-text">Description</div>
+                <textarea type="text" class="create__input-description" name="description" id="description_input">{{{description}}}</textarea>
+            </div>
+            <div class="create__fun">
+                <div class="create__input-text">Fun</div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="{{{fun}}}" class="create__input-fun" name="fun" id="fun_input">
+                    <div class="slidertext" id="fun_percentage">{{{fun}}}%</div>
+                </div>
+            </div>
+        </div>
+        <button class="create__submit btn-blue" type="submit">Submit</button>
+    </form>
+    <script type="module" src="../js/create.js"></script>
+</main>

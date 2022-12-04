@@ -1,0 +1,30 @@
+{
+  "name": "iot_web_2nd-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrimLord16/IoT_web_2nd-site.git"
+  },
+  "author": "Vadym Pavlyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrimLord16/IoT_web_2nd-site/issues"
+  },
+  "homepage": "https://github.com/GrimLord16/IoT_web_2nd-site#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

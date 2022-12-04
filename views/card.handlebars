@@ -1,0 +1,19 @@
+{{#each doggos}}
+<li class="doggos__doge-card" id="item-{{{id}}}">
+    <div class="doggos__doge-card-image">
+        <img src="https://images.unsplash.com/photo-1567225591450-06036b3392a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="doge">
+    </div>
+    <div class="doggos__doge-card-content">
+        <div class="doggos__doge-card-title">{{{title}}}</div>
+        <div class="doggos__doge-card-description">{{{description}}}</div>
+        <div class="doggos__doge-card-fun">
+            <div class="doggos__doge-card-fun-text">Fun: </div>
+            <div class="doggos__doge-card-fun-level">{{{fun}}}%</div>
+        </div>
+        <div class="doggos__doge-card-buttons">
+            <button class="doggos__doge-card-edit btn-blue" id="edit-doge_button" onclick="location.href = '/doggos/edit/{{{id}}}';">Edit</button>
+            <button class="doggos__doge-card-remove btn-red" id="remove-doge_button" onclick="location.href = '/doggos/delete/{{{id}}}';">Remove</button>
+        </div>
+    </div>
+</li>
+{{/each}}
